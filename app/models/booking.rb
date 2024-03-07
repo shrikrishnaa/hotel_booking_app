@@ -14,7 +14,6 @@ class Booking < ApplicationRecord
   end
 
   def set_status
-    binding.pry
     self.status ||= 'confirmed'
   end
 
